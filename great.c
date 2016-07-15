@@ -9,12 +9,6 @@ scanf("%d",&b);
 for(i=0;i<b;i++)
 scanf("%s",a[i]);
 for(i=0;a[0][i];i++)
-{
-for(j=1;a[j][i];j++)
-{
-if(a[j][i]!=a[j-1][i])
-{
-printf("%s",&s);
 c=1;
 }
 }
